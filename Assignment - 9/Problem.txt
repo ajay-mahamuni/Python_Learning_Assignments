@@ -1,0 +1,15 @@
+Python Programming
+Assignment : 9
+
+1.Create a Python program that starts 3 threads, each printing numbers
+from 1 to 5 with a delay of 1 second. Use threading.Thread.
+
+2. Write a Python program using multiprocessing.Process to square a list of
+numbers using multiple processes.
+
+3. Create a Python program that uses multiprocessing.Pool to compute
+factorial of numbers in a list.
+
+4. Create a Python program that Compare execution time of summing
+numbers from 1 to 10 million using normal function, threading, and
+multiprocessing.
