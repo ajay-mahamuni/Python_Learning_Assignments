@@ -1,0 +1,42 @@
+Python Programming Assignment based on Lambda functions
+
+Q1. Write two lambda functions:
+• One to calculate square of a number
+• Another to calculate cube of a number
+Expected Input:
+Enter a number: 3
+Expected Output:
+Square: 9
+Cube: 27
+
+Q2. Accept a list of integers from the user and use the map() function to double each
+value.
+Expected Input:
+Enter list: 1 2 3 4 5
+Expected Output:
+Doubled list: [2, 4, 6, 8, 10]
+
+Q3. Accept a list of numbers and use filter() to keep only even numbers.
+Expected Input:
+Enter list: 1 2 3 4 5 6
+Expected Output:
+Even numbers: [2, 4, 6]
+
+Q4. Accept a list of numbers and use reduce() (from functools) to find the product of
+all numbers.
+Expected Input:
+Enter list: 2 3 4
+Expected Output:
+Product: 24
+
+Q5. Write a function that accepts a string and checks whether it is a palindrome.
+Expected Input:
+Enter a string: radar
+Expected Output: radar is a palindrome.
+
+Q6. Write a function that accepts a list of integers and returns a list of prime numbers
+using filter().
+Expected Input:
+Enter list: 10 11 12 13 14 15 16 17
+Expected Output:
+Prime numbers: [11, 13, 17]
