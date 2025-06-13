@@ -1,0 +1,26 @@
+Python Programming
+
+Assignment : 17
+
+1. Write a Python script that prints “Jay Ganesh...” every 2 seconds. Use the
+schedule.every(2).seconds.do(...) function.
+
+2. Schedule a task that displays the current date and time every minute using the
+datetime module.
+
+3. Write a program that schedules a function to print “Do Coding..!” every 30
+minutes.
+
+4. Create a task that runs once every day at 9:00 AM and prints “Namskar...”
+
+5. Schedule a job that runs every 5 minutes to write the current time to a file
+Marvellous.txt.
+
+6. Write a script that schedules multiple tasks: one to print "Lunch Time!" at 1 PM,
+and another to print "Wrap up work" at 6 PM.
+
+7. Schedule a function that performs file backup every hour and writes a log entry
+into backup_log.txt.
+
+8. Write a script that simulates checking for email updates every 10 seconds. (Use a
+print statement like “Checking mail...” instead of real email logic.)
