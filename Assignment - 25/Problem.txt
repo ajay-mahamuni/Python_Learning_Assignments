@@ -1,0 +1,41 @@
+Machine Learning Assignment
+
+Q1: Detect outliers in the 'Salary' column using the IQR method.
+data = {'Salary': [25000, 27000, 29000, 31000, 50000, 100000]}
+
+Q2: Detect column data types and convert 'Age' from float to int.
+data = {'Name': ['A', 'B', 'C'], 'Age': [21.0, 22.0, 23.0]}
+
+Q3: Apply Label Encoding to a 'City' column.
+data = {'City': ['Pune', 'Mumbai', 'Delhi', 'Pune', 'Delhi']}
+
+Q4: Apply One-Hot Encoding to a 'Department' column.
+data = {'Department': ['HR', 'IT', 'Finance', 'HR', 'IT']}
+
+Q5: Create a DataFrame with 'Age' and 'Purchased' columns and split into train/test sets.
+data = {'Age': [22, 25, 47, 52, 46, 56], 'Purchased': [0, 1, 1, 0, 1, 0]}
+
+Q6: Replace multiple values in a column using a dictionary.
+data = {'Grade': ['A+', 'B', 'A', 'C', 'B+']}
+Replace as
+'A+': ‘Excellent'
+'A': 'Very Good’
+'B+': ‘Good'
+'B': ‘Average'
+'C': 'Poor'
+
+Q7: Normalize 'Age' column using Min-Max Scaling.
+data = {'Age': [18, 22, 25, 30, 35]}
+
+Q8: Fill missing values in a numeric column using interpolation.
+data = {'Marks': [85, np.nan, 90, np.nan, 95]}
+
+Q9: Replace values in 'Marks' less than 50 with 'Fail' using where().
+data = {'Marks': [45, 67, 88, 32, 76]}
+
+Q10: Split a DataFrame with multiple features into train-test for supervised learning.
+data = {
+'Age': [25, 30, 45, 35, 22],
+'Salary': [50000, 60000, 80000, 65000, 45000],
+'Purchased': [1, 0, 1, 0, 1]
+}
