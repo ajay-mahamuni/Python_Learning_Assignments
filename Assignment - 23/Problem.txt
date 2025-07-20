@@ -1,0 +1,34 @@
+Machine Learning Assignment
+
+Q1: Create a DataFrame for student marks and print basic information like shape, columns, and
+data types.
+data = {
+'Name': ['Amit', 'Sagar', 'Pooja'],
+'Math': [85, 90, 78],
+'Science': [92, 88, 80],
+'English': [75, 85, 82]
+}
+Note : Consider the same dataset for this as well as next assignment.
+
+Q2: Use the DataFrame from Q1 and print descriptive statistics using .describe().
+
+Q3: Add a new column 'Total' to the DataFrame as the sum of all subject marks.
+
+Q4: Display students who scored more than 85 in Science.
+
+Q5: Replace 'Pooja' with 'Puja' in the 'Name' column.
+
+Q6: Sort the DataFrame by 'Total' marks in descending order.
+
+Q7: Create a bar plot of student names vs total marks.
+
+Q8: Plot a line chart of marks for 'Amit' across all subjects.a
+
+Q9: Create a DataFrame with missing values and fill them with column mean.
+data2 = {
+'Name': ['Amit', 'Sagar', 'Pooja'],
+'Math': [np.nan, 76, 88],
+'Science': [91, np.nan, 85]
+}
+
+Q10: Drop the 'English' column from original DataFrame.
