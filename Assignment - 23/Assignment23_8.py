@@ -36,8 +36,10 @@ def LineChart(dataFrame):
     plt.ylabel("Marks")
     plt.title("Amit's Marks in each Subject")
     plt.legend()
-    # plt.grid(True)
+    plt.savefig("MarksLineChart.png")
     plt.show()
+
+    print("Line chart of marks saved as MarksLineChart.png")
 
     
 
@@ -57,3 +59,16 @@ if __name__ == "__main__":
 
 
     # Q8: Plot a line chart of marks for 'Amit' across all subjects.a
+
+    # D:\ajay.mahamuni\Python-2025\Programs\Python_Learning_Assignments\Assignment - 23>python Assignment23_8.py
+    # ------------------------------------------------------------------------------------------------------------------------
+    # Original data of dataframe is :
+    #     Name  Math  Science  English
+    # 0   Amit    85       92       75
+    # 1  Sagar    90       88       85
+    # 2  Pooja    78       80       82
+    # ------------------------------------------------------------------------------------------------------------------------
+    # Filter Data :    Name  Math  Science  English
+    # 0  Amit    85       92       75
+    # ------------------------------------------------------------------------------------------------------------------------
+    # Line chart of marks saved as MarksLineChart.png
