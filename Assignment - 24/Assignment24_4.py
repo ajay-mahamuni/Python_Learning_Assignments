@@ -34,8 +34,10 @@ def LineChart(dataFrame):
     
     plt.axis("equal")
     plt.title("Sagar's Marks in each Subject")
+    plt.savefig("PieChart.png")
     plt.show()
 
+    print("Pie chart of marks in each Subject saved as PieChart.png")
     
 
 def main():
@@ -55,15 +57,16 @@ if __name__ == "__main__":
 
     # Q4: Plot a pie chart of subject marks for 'Sagar'.
 
-    # D:\ajay.mahamuni\Python-2025\Programs\Python_Learning_Assignments\Assignment - 24>python Assignment24_4.py
-    # ------------------------------------------------------------------------------------------------------------------------
-    # Original data of dataframe is :
-    #     Name  Math  Science  English
-    # 0   Amit    85       92       75
-    # 1  Sagar    90       88       85
-    # 2  Pooja    78       80       82
-    # ------------------------------------------------------------------------------------------------------------------------
-    # Filter Data :
-    #     Name  Math  Science  English
-    # 1  Sagar    90       88       85
-    # ------------------------------------------------------------------------------------------------------------------------
+    #    D:\ajay.mahamuni\Python-2025\Programs\Python_Learning_Assignments\Assignment - 24>python Assignment24_4.py
+    #     ------------------------------------------------------------------------------------------------------------------------
+    #     Original data of dataframe is :
+    #         Name  Math  Science  English
+    #     0   Amit    85       92       75
+    #     1  Sagar    90       88       85
+    #     2  Pooja    78       80       82
+    #     ------------------------------------------------------------------------------------------------------------------------
+    #     Filter Data :
+    #         Name  Math  Science  English
+    #     1  Sagar    90       88       85
+    #     ------------------------------------------------------------------------------------------------------------------------
+    #     Pie chart of marks in each Subject saved as PieChart.png
